@@ -1,0 +1,27 @@
+/* Estilos personalizados para a página */
+body {
+    padding-top: 80px; /* Para compensar a altura do navbar fixo */
+}
+
+.jumbotron {
+    background-color: #343a40;
+    padding: 100px 0;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(151, 55, 55, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 50px;
+}

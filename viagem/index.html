@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Layout Modernizado</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('https://www.hotellinksolutions.com/images/blog/featured1.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #000000; /* Cor padrão do texto para boa legibilidade */
+        }
+
+        .jumbotron {
+            background: rgba(245, 245, 245, 0.6); /* Fundo escuro translúcido para contraste */
+            color: #0f0c0c;
+            padding: 4rem 2rem;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer-bg {
+            background-color: ;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">WORLD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">WORLD</h1>
+            <p class="lead">Um lugar para descobrir novidades e viver algo novo todos os dias.</p>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Nossos Serviços</h2>
+        <div class="card-deck">
+            <!-- Card 1 -->
+            <div class="card shadow-lg">
+                <img src="https://www.passagensimperdiveis.com.br/wp-content/uploads/2019/02/20190212144329_870_grecia.png" class="card-img-top" alt="Serviço 1">
+                <div class="card-body">
+                    <h5 class="card-title">À vista com 7% de desconto (R$ 2.335).
+                        Em até 4 vezes sem juros no cartão de crédito.
+                        Duração: 3 dias.</h5>
+                    <p class="card-text"> "Mergulhe na rica história de Atenas com nossas excursões guiadas. Visite marcos icônicos como o Partenon, a Ágora Antiga e o Templo de Zeus. Nossos guias experientes fornecerão uma visão detalhada da história e cultura da cidade, tornando sua visita educacional e fascinante."</p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card shadow-lg">
+                <img src="https://www.passagensimperdiveis.com.br/wp-content/uploads/2020/02/20200212083525_630_grecia_atenas.png" class="card-img-top" alt="Serviço 2">
+                <div class="card-body">
+                    <h5 class="card-title">À vista com 7% de desconto (R$ 2.333).
+                        Em até 4 vezes sem juros no cartão de crédito.
+                        Duração: 3 dias.</h5>
+                    <p class="card-text">A excursão em Atenas é uma experiência imersiva que leva você a explorar os marcos históricos e culturais da capital grega. Durante o tour, você terá a oportunidade de conhecer a rica história e a arquitetura antiga que definem Atenas..</p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card shadow-lg">
+                <img src="https://travel-cdn.cubo333.com.br/static-img/pics/2022/02/22_184305_563_img_europa_destinos_abertos_p_brasileiros_600x315.png" class="card-img-top" alt="Serviço 3">
+                <div class="card-body">
+                    <h5 class="card-title">À vista com 7% de desconto (R$ 2.2.25).
+                        Em até 4 vezes sem juros no cartão de crédito.
+                        Duração: 3 dias</h5>
+                    <p class="card-text">Nossa excursão pela Europa oferece uma oportunidade única de explorar alguns dos destinos mais emblemáticos e encantadores do continente. Com um itinerário cuidadosamente planejado, você poderá vivenciar a cultura, a história e a beleza de várias cidades europeias em uma viagem inesquecível.</p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-bg text-white py-4">
+        <div class="container text-center">
+            &copy; 2024 Meu Site. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
